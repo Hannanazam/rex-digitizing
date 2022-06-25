@@ -198,4 +198,14 @@
 $('.company_section').hide();
 $(document).ready(function(){
             $('input[name="companytypeRadio"]').on('click',function(){
-                if($(this).val() 
+                if($(this).val() === 'show'){
+                    $('.company_section').show();
+                }else{
+                    $('.company_section').hide();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -134,4 +134,14 @@
         // ============================================================== 
         $('#to-recover').on("click", function() {
             $("#loginform").slideUp();
-            $("#recoverform
+            $("#recoverform").slideDown();
+        });
+        $('#to-recover-back').on("click", function() {
+            $("#recoverform").slideUp();
+            $("#loginform").slideDown();
+        });
+    </script>
+    
+</body>
+
+</html>
