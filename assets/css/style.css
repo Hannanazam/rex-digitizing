@@ -6728,3 +6728,30 @@ table#myTable thead .sorting_desc {
     top: 55%;
     right: 2%;
 }
+
+table#myTable thead .sorting, table#myTable thead .sorting_asc, table#myTable thead .sorting_desc {
+    color:#000 !important;
+}
+.modal_nav_order .nav-item .nav-link.active{
+    background: #0f0d23;
+    color: #fff;
+}
+.modal_nav_order .nav-item{
+    width: 50%;
+    text-align: center;
+}
+.select2.select2-container{
+    width:100% !important;
+  }
+  .select2-container--default .select2-selection--single{
+    border-color:#ced4da;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__rendered{
+    color:#67757c;
+  }
+  .image_area_absolute{
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      opacity: .2;
+  }

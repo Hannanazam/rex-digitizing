@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/node_modules/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../assets/css/aaintlTelInput.css" rel="stylesheet" />
+
     <!-- This page CSS -->
     <!-- Dropzone css -->
     <link href="../assets/node_modules/dropzone-master/dist/dropzone.css" rel="stylesheet" type="text/css" />

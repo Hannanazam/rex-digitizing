@@ -189,11 +189,12 @@
 
                 <div class="form-group col-md-12">
                   <label>Attachments</label>
-                  <div action="#" class="dropzone dropzone-area dz-clickable " id="dpz-remove-all-thumb">
+                  <!-- <div action="#" class="dropzone dropzone-area dz-clickable " id="dpz-remove-all-thumb">
                     <div class="fallback dictRemoveFile">
                         <input name="file" type="file" multiple />
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="input-images"></div>
                 </div>
 
                 <div class="form-group col-md-12">

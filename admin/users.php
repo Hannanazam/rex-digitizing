@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
 <div class="page-wrapper">
     <div class="container-fluid">
 
@@ -148,17 +149,20 @@
                            </div>
 
                            <div class="form-group col-md-6">
-                               <label>Password</label>
-                               <input type="password" class="form-control" required name="password">
-                           </div>
+                              <div class="password_field">
+                            <label>Password </label>
+                            <input type="password" class="form-control shadow-none" required>
+                            <span class="icon f-icon"><i class="fas fa-eye"></i></span>
+                            </div>
+                        </div>
                            <div class="form-group col-md-6">
                                <label>Contact</label>
-                               <input type="tel" class="form-control" required name="phone">
+                               <input type="tel" id="phone" class="form-control" required name="phone">
                            </div>
 
                            <div class="form-group col-md-6">
                                <label>Country</label>
-                               <select class="form-control" name="country">
+                               <select class="select2 form-control shadow-none custom-select font-sm-13 w-100" name="country">
                                 <option value="" disabled selected>Choose Country</option>
                                 <?php foreach($countrieslist as $country) { ?>
                                   <option value="{{$country}}">{{$country}}</option>
@@ -167,7 +171,7 @@
                            </div>
                            <div class="form-group col-md-6">
                                <label>State</label>
-                               <select class="form-control" name="state">
+                               <select class="select2 form-control shadow-none custom-select font-sm-13 w-100" name="state">
                                 <option value="" disabled selected>Choose State</option>
                                 <?php foreach($countrieslist as $country) { ?>
                                   <option value="{{$country}}">{{$country}}</option>
@@ -176,16 +180,18 @@
                            </div>
                            <div class="form-group col-md-6">
                                <label>City</label>
-                               <select class="form-control" name="city">
-                                <option value="" disabled selected>Choose City</option>
-                                <?php foreach($countrieslist as $country) { ?>
-                                  <option value="{{$country}}">{{$country}}</option>
-                                  <?php } ?>
-                            </select>
+                              <select class="select2 form-control shadow-none custom-select font-sm-13 w-100">
+                                            <option selected disabled value="">Select City</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                              
                            </div>
                            <div class="form-group col-md-12">
                                <label>Usertype</label>
-                               <select class="form-control" name="usertype">
+                               <select class="select2 form-control shadow-none custom-select font-sm-13 w-100" name="usertype">
                                    <option value="" disabled selected>Select Usertype</option>
                                    @php $usertypelist = App\Models\Usertype::get(); @endphp
                                    @foreach ($usertypelist as $usertype)

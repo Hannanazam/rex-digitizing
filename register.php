@@ -13,9 +13,13 @@
     <title>AdminWrap - Easy to Customize Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
     <!-- page css -->
     <link href="./assets/css/pages/login-register-lock.css" rel="stylesheet">
     <link href="./assets/css/pages/icon-page.css" rel="stylesheet" />
+    <link href="./assets/css/aaintlTelInput.css" rel="stylesheet" />
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/node_modules/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
@@ -33,6 +37,9 @@
   .select2-container .select2-selection--single{
       height:38px;
   }
+  .intl-tel-input{
+    width: 100% !important;
+    }
   .select2-container .select2-selection--single .select2-selection__rendered{
       top:4px;
       position:relative;
@@ -64,8 +71,8 @@
                     <form class="" id="loginform" action="index.html">
                         <h3 class="box-title m-b-20 float-left">Sign Up</h3>
                         <div class="d-flex justify-content-end mb-4">
-                        <img src="assets/images/logo-icon-2.png" class="img-fluid" style="width: 13%;">
-                        <img src="assets/images/logo-text-2.png" class="img-fluid" style="width: 50%;height:0%;">
+                        <img src="assets/images/logo-icon-2.png" class="img-fluid" style="width: 15%;">
+                        <img src="assets/images/logo-text-2.png" class="img-fluid" style="width: 65%;height:0%;">
                     </div>
 
                         <div class="form-group bordered-form">
@@ -100,7 +107,7 @@
                         </div>
                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
                         <label>Phone </label>
-                            <input type="number" class="form-control shadow-none" required>
+                            <input type="number" id="phone" class="form-control shadow-none" required>
                         </div>
                         <div class="company_section col-lg-12 col-md-12 col-sm-12 px-0">
                         <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -206,4 +213,67 @@ $(document).ready(function(){
     </script>
 </body>
 
+
+<script src="assets/js/aaintlTelInput.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+<script>
+    function callcode(element_id) {
+                var telInput = $("#"+element_id),
+
+                errorMsg = $("#error-msg"),
+                validMsg = $("#valid-msg");
+
+            // initialise plugin
+                telInput.intlTelInput({
+
+                    allowExtensions: true,
+                    formatOnDisplay: true,
+                    autoFormat: true,
+                    autoHideDialCode: true,
+                    autoPlaceholder: true,
+                    defaultCountry: "auto",
+                    ipinfoToken: "yolo",
+
+                    nationalMode: false,
+                    numberType: "MOBILE",
+                    //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                    preferredCountries: ['sa', 'ae', 'qa','om','bh','kw','ma'],
+                    preventInvalidNumbers: true,
+                    separateDialCode: true,
+                    initialCountry: "us",
+                    geoIpLookup: function(callback) {
+                    $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "";
+                    callback(countryCode);
+                    });
+                },
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"
+                });
+
+            var reset = function() {
+                telInput.removeClass("error");
+                errorMsg.addClass("hide");
+                validMsg.addClass("hide");
+            };
+
+            // on blur: validate
+            telInput.blur(function() {
+                reset();
+                if ($.trim(telInput.val())) {
+                if (telInput.intlTelInput("isValidNumber")) {
+                    validMsg.removeClass("hide");
+                } else {
+                    telInput.addClass("error");
+                    errorMsg.removeClass("hide");
+                }
+                }
+            });
+
+            // on keyup / change flag: reset
+            telInput.on("keyup change", reset);
+
+        }
+        callcode("phone");
+</script>
 </html>

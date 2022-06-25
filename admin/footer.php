@@ -1,4 +1,151 @@
 <div class="modal fade" id="customerattachments" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Attachment</h4> <button type="button" class="close" data-dismiss="modal">×</button>
+            </div> <!-- Modal body -->
+            <div class="modal-body">
+                <div class="container">
+                <div class="card">
+                <div class="card-body">
+                  <!-- Nav tabs -->
+                  <div class="vtabs">
+                    <ul class="nav nav-tabs tabs-vertical justify-content-between modal_nav_order" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#home4" role="tab" aria-selected="true"><span class="hidden-sm-up"><i class="ti-home"></i></span>
+                          <span class="hidden-xs-down">Designer</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#profile4" role="tab" aria-selected="false"><span class="hidden-sm-up"><i class="ti-user"></i></span>
+                          <span class="hidden-xs-down">Customer</span></a>
+                      </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div class="tab-pane active p-10 mt-0" id="home4" role="tabpanel">
+                          <div class="w-100 text-right">
+                              <button class="btn btn-danger">Download All</button>
+                          </div>
+                      <div class="card customer_card">
+                      <div class="row">
+
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+
+                    </div>
+                  </div>
+                      </div>
+                      <div class="tab-pane p-10 mt-0" id="profile4" role="tabpanel">
+                      <div class="w-100 text-right">
+                              <button class="btn btn-danger">Download All</button>
+                          </div>
+                      <div class="card customer_card">
+                      <div class="row">
+
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-3 col-sm-12 hover-main">
+                        <img class="img-fluid" src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="Card image cap">
+                        <div class="hover-area">
+                        <div class="el-overlay scrl-dwn">
+                                        <div class="el-info">
+                                            <a class="btn default btn-outline image-popup-vertical-fit" href="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg"><i class="sl-icon-magnifier"></i></a>
+                                            <a class="btn default btn-outline" href="javascript:void(0);"><i class="sl-icon-link"></i></a>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+
+                    </div>
+                  </div>
+                      </div>
+                      
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+    </div>
+</div>
+
+<div class="modal fade" id="" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-lg modal-side modal-top-left" role="document">
                               <div class="modal-content">
                                 <div class="modal-header">
@@ -60,6 +207,8 @@
                                 </div>
                               </div>
                             </div>
+</div>
+</div>
 </div>
 
 <div class="modal fade" id="orderDetail2" tabindex="-1" role="dialog">
@@ -270,7 +419,11 @@
 
                     <div class="form-group col-md-12">
                         <label>Payment Received Date</label>
-                        <input type="text" name="date" value="" class="form-control ml-2" id="daterange" required>
+                        <input type="date" name="date" value="" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Payment Received Time</label>
+                        <input type="time" name="time" value="" class="form-control" required>
                     </div>
 
                     <div class="form-group col-md-12 text-right">
@@ -361,6 +514,7 @@
 <!-- ============================================================== -->
 <script src="../assets/node_modules/jquery/jquery.min.js"></script>
 <script src="../assets/node_modules/morrisjs/morris.min.js"></script>
+<script src="../assets/js/app.js"></script>
 <!-- <script src="https://unpkg.com/fullcalendar@5.3.2/main.min.js"></script> -->
 
 <!-- Bootstrap popper Core JavaScript -->
@@ -392,6 +546,8 @@
 <script src="../assets/node_modules/c3-master/c3.min.js"></script>
 <!-- Popup message jquery -->
 <script src="../assets/node_modules/toast-master/js/jquery.toast.js"></script>
+<script src="../assets/node_modules/image-uploader/dist/image-uploader.min.js"></script>
+
 <!-- Chart JS -->
 <script src="../assets/js/dashboard1.js"></script>
 <!-- ============================================================== -->
@@ -420,6 +576,68 @@
     ></script>
 </body>
 <!-- <script src="../assets/js/calender.min.js"></script> -->
+<script src="../assets/js/aaintlTelInput.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+<script>
+    function callcode(element_id) {
+                var telInput = $("#"+element_id),
+
+                errorMsg = $("#error-msg"),
+                validMsg = $("#valid-msg");
+
+            // initialise plugin
+                telInput.intlTelInput({
+
+                    allowExtensions: true,
+                    formatOnDisplay: true,
+                    autoFormat: true,
+                    autoHideDialCode: true,
+                    autoPlaceholder: true,
+                    defaultCountry: "auto",
+                    ipinfoToken: "yolo",
+
+                    nationalMode: false,
+                    numberType: "MOBILE",
+                    //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+                    preferredCountries: ['sa', 'ae', 'qa','om','bh','kw','ma'],
+                    preventInvalidNumbers: true,
+                    separateDialCode: true,
+                    initialCountry: "us",
+                    geoIpLookup: function(callback) {
+                    $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+                    var countryCode = (resp && resp.country) ? resp.country : "";
+                    callback(countryCode);
+                    });
+                },
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"
+                });
+
+            var reset = function() {
+                telInput.removeClass("error");
+                errorMsg.addClass("hide");
+                validMsg.addClass("hide");
+            };
+
+            // on blur: validate
+            telInput.blur(function() {
+                reset();
+                if ($.trim(telInput.val())) {
+                if (telInput.intlTelInput("isValidNumber")) {
+                    validMsg.removeClass("hide");
+                } else {
+                    telInput.addClass("error");
+                    errorMsg.removeClass("hide");
+                }
+                }
+            });
+
+            // on keyup / change flag: reset
+            telInput.on("keyup change", reset);
+
+        }
+        callcode("phone");
+</script>
 <script>
 
 // Datatable start

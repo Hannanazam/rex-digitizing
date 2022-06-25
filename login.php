@@ -15,6 +15,9 @@
     <link href="./assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- page css -->
     <link href="assets/css/pages/login-register-lock.css" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
     
