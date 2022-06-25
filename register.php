@@ -20,8 +20,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/node_modules/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css" />
     
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
     <!-- You can change the theme colors from here -->
     <link href="assets/css/colors/default.css" id="theme" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

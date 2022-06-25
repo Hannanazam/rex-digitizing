@@ -98,7 +98,7 @@
                             <td>Mar 16, 2021</td>
                             <td><span class="label label-primary">Not Defined</span></td>
                             <td><a href="#" class="btn btn-danger btn-xs"  data-toggle="modal" data-target="#customerattachments" title="View Details">View Files</a></td>
-                            <td><span class="label label-success">Responded</span></td>
+                            <td><span class="label label-success">Pending</span></td>
                             <td>
                               <a href="javascript:void(0)" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#orderDetail2" data-original-title="View Quotes"><i class="fa fa-eye" aria-hidden="true"></i></a>
                               </td>
